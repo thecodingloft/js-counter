@@ -1,0 +1,85 @@
+/* CSS RESET */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* STYLES */
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* utilities */
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+    padding: 25px;
+}
+
+.col-4_12 {
+    width: 30%;
+} 
+
+/* elements styles */
+.achievements {
+    background: #f1f1f1;
+    width: 100vw;
+}
+
+.achievements__card {
+    padding: 25px;
+    margin: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements__card--number {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.achievements__card--text {
+    font-size: 24px;
+}
+
+.achievements__card--icon span{
+    font-size: 48px;
+    color: #444;
+}
